@@ -1,0 +1,75 @@
+/*------------------------------------------------------------*/
+.row {
+    clear:both;
+    margin:0 auto;
+    width:100%;
+}
+.col {
+    float:left;
+    min-height:1px;
+    position:relative;
+}
+.col-full {
+    width:100%;
+}
+/* clear floats */
+.row:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+
+/*------------------------------------------------------------*/
+/* 12 column */
+.col+.col-1-12,
+.col+.col-2-12,
+.col+.col-3-12,
+.col+.col-4-12,
+.col+.col-5-12,
+.col+.col-6-12,
+.col+.col-7-12,
+.col+.col-8-12,
+.col+.col-9-12,
+.col+.col-10-12,
+.col+.col-11-12 {
+    margin-left:1.9607843137%;
+}
+/* 12 column units */
+.col-1-12 {width:6.535947712418%;}
+.col-2-12 {width:15.032679738562%;}
+.col-3-12 {width:23.529411764706%;}
+.col-4-12 {width:32.02614379085%;}
+.col-5-12 {width:40.522875816993%;}
+.col-6-12 {width:49.019607843137%;}
+.col-7-12 {width:57.516339869281%;}
+.col-8-12 {width:66.013071895425%;}
+.col-9-12 {width:74.509803921569%;}
+.col-10-12 {width:83.006535947712%;}
+.col-11-12 {width:91.503267973856%;}
+
+/* 12 column layout offsets */
+.offset-1-12 {margin-left:8.496732026144%;}
+.offset-2-12 {margin-left:16.993464052288%;}
+.offset-3-12 {margin-left:25.490196078431%;}
+.offset-4-12 {margin-left:33.986928104575%;}
+.offset-5-12 {margin-left:42.483660130719%;}
+.offset-6-12 {margin-left:50.980392156863%;}
+.offset-7-12 {margin-left:59.477124183007%;}
+.offset-8-12 {margin-left:67.97385620915%;}
+.offset-9-12 {margin-left:76.470588235294%;}
+.offset-10-12 {margin-left:84.967320261438%;}
+.offset-11-12 {margin-left:93.464052287582%;}
+
+/* 12 column offset sibling widths */
+.col+.offset-1-12 {margin-left:10.457516339869%;}
+.col+.offset-2-12 {margin-left:18.954248366013%;}
+.col+.offset-3-12 {margin-left:27.450980392157%;}
+.col+.offset-4-12 {margin-left:35.947712418301%;}
+.col+.offset-5-12 {margin-left:44.444444444444%;}
+.col+.offset-6-12 {margin-left:52.941176470588%;}
+.col+.offset-7-12 {margin-left:61.437908496732%;}
+.col+.offset-8-12 {margin-left:69.934640522876%;}
+.col+.offset-9-12 {margin-left:78.43137254902%;}
+.col+.offset-10-12 {margin-left:86.928104575163%;}
